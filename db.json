@@ -1,0 +1,19 @@
+{
+    "inventory": [
+      {
+        "id": "1",
+        "name": "Product A",
+        "quantity": 10,
+        "price": 20
+      },
+      {
+        "id": "2",
+        "name": "Product b",
+        "quantity": 10,
+        "price": 20
+      }
+    ],
+    "cart": [
+    ]
+  }
+  
