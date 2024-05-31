@@ -1,0 +1,76 @@
+/* Tweet container */
+.container {
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   border: 1px solid #cfd9de;
+   border-radius: 16px;
+   padding: 12px;
+   gap: 20px;
+   max-width: 700px;
+   margin: 0 auto; /* Center the container horizontally */
+   margin-top: 100px;
+}
+
+/* Thumbnail image */
+.container img {
+   width: 48px;
+   height: 48px;
+   border-radius: 50%;
+}
+
+/* Name */
+.name {
+   color: #000;
+   font-family: sans-serif;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+/* Metadata (use &middot; for the dot) */
+.metadata {
+   color: #71767b;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+
+/* Message */
+.message {
+   color: #0f1419;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+
+/* Actions row */
+.actions {
+   display: flex;
+   justify-content: flex-start; /*Equal spacing between each action */
+   align-items: center;
+   color: #536471;
+   font-size: 13px;
+   width: 100%;
+   margin-top: 12px;
+   gap: 50px; /*Reduce the space between icons*/
+}
+
+/* Icon */
+.actions svg {
+   fill: #536471;
+   width: 16px;
+   height: 16px;
+}
+
+.actions .icon {
+   display: flex;
+   align-items: center; /* Vertically center the icon with the count */
+}
+
+.actions .icon + .icon {
+   margin-left: 20px; /* Space between icons */
+}
+
+.actions .count {
+   margin-left: 4px; /* Space between icon and count */
+   font-size: 15px;
+   color: #536471;
+}
